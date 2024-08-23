@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "univeristies",
+  "info": {
+    "singularName": "univeristy",
+    "pluralName": "univeristies",
+    "displayName": "univeristy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rankingStreams": {
+      "displayName": "rankingStreams",
+      "type": "component",
+      "repeatable": true,
+      "component": "test.ranking-streams"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_test_ranking_streams",
+  "info": {
+    "displayName": "rankingStreams",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "rankingPublisher": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::publisher.publisher"
+    }
+  }
+}
